@@ -1,0 +1,182 @@
+body{
+    overflow-x: hidden;
+    background-color: #F2F3F7;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
+*{
+    font-family: arial;
+}
+/* header starts  */
+header{
+    display: grid;
+    grid-template-columns: 4fr 8fr ;
+    height: 16vh;
+    width: 90.5vw;
+    background-color: black;
+    /* z-index: 2; */
+}
+#brand {
+    display: flex; 
+    align-items: center;
+}
+#navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li a{
+    color: white;
+    margin: 1em;
+}
+/* header ends  */
+/* entry point */
+#name{
+    font-size: 3rem;
+}
+#intro{
+    height: 100vh;
+}
+#i1,#i2{
+    display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 100vh;
+}
+     #i1{
+        background-image: url("/public/images/i4.jpeg");
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size:contain;
+        background-position: right;
+    }
+    #i2{
+        background-image: url("/public/images/i4.jpeg");
+        background-repeat: no-repeat;
+         background-size: cover;
+    } 
+    #main_1,#main_2{
+        margin: 2em;
+        width: 33vw;
+        height: 45vh;
+        padding: 1em;
+        background-color: rgb(239, 241, 243);
+        border-radius: 0.5em;
+    }
+    #main_2{
+        background-color: #F2F3F7;
+    }
+    @keyframes faded {
+        from{
+            top: 5em;
+            opacity: 0.2;
+        }
+        to{
+            top: 0em;
+            opacity: 0.8;
+        }
+    }
+/* entry point end      */
+/* about-me starts */
+#about-me{
+    height: 130vh;
+    margin: 0;
+    padding: 1rem;
+    background-color: #F2F3F7;
+}
+/* about-e ends  */
+#skills{
+    height: 38vh;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    column-gap: 1rem;
+    margin: 3em;
+    margin-bottom: 0;
+}
+#skills div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 12em;
+    width: 14em;
+    padding: 2em;
+    background-color:rgb(208, 224, 219);
+    box-shadow: 2px 4px 10px  black;
+    border-radius: 1em;
+}
+#msg {
+height: 25vh;
+width: 50vw;
+background-color: yellow;
+border-radius: 1em;
+
+}
+/* projects starts  */
+#Myprojects{
+    display: grid;
+    grid-template-rows: 4fr 8fr;
+    height: 70vh;
+    background-image: url("/public/images/banner.jpg");
+    background-attachment: fixed;
+    
+}
+#projects{ 
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    column-gap: 2em;
+    padding: 2em;
+   overflow: none;
+}
+
+#demos {
+    margin: 1em;
+
+}
+/* projects ends  */
+
+/* skillset starts  */
+#myskillset{
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 2fr 2fr 8fr;
+}
+input[type="range"]{
+width: 25em;        
+}
+/* skillset ends  */
+/* education starts  */
+#education{
+    height: 60vh;
+}
+#accordionFlushExample{
+
+    width: 50vw;
+}
+#accordionFlushExample button{
+    background-color: rgb(109, 109, 185);
+    color: white;
+}
+/* education ends  */
+
+/* footer starts */
+footer{
+    height: 55vh;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 4fr 8fr;
+
+}
+textarea{
+    resize: none;
+}
+/* footer ends  */
