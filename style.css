@@ -131,7 +131,7 @@ border-radius: 1em;
     display: grid;
     grid-template-rows: 4fr 8fr;
     height: 70vh;
-    background-image: url("/public/images/banner.jpg");
+    background-image: url("public/images/banner.jpg");
     background-attachment: fixed;
     
 }
