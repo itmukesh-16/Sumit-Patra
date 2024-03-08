@@ -52,13 +52,13 @@ li a{
         height: 100vh;
 }
      #i1{
-        background-image: url("/public/images/i4.jpeg");
+        background-image: url("public/images/i4.jpeg");
         background-repeat: no-repeat;
         background-size:contain;
         background-position: right;
     }
     #i2{
-        background-image: url("/public/images/i1.jpg");
+        background-image: url("public/images/i1.jpg");
         background-repeat: no-repeat;
         background-size:contain;
         background-position: right;
